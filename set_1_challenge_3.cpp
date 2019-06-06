@@ -39,11 +39,8 @@ for (size_t i = 95; i>=0; i--)
   <<hex_string_to_asci(xoring_hex_and_char(main_string,holder[i].ch))
   <<endl;
 }
-
-
 return 0;
 }
-
 
 int its_hex(char ch){ 
     if((int)ch>58) return (int)ch-87; 
@@ -56,7 +53,6 @@ string hex_string_to_asci(string hex)
     string here="";
     for (size_t i = 0; i < hex.length(); i+=2)
     here+=(char)(its_hex(hex[i])*16 + its_hex(hex[i+1]));
-    
     return here;
 
 } 
