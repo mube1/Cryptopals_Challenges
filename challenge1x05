@@ -46,7 +46,8 @@ for i in (File):  # iterates line by line
                 weight = weight + add                                      
                 byte=""  
         
-        if weight >300: # to check which has the most weight and print it
+        if weight >300:
+        # this step is to check which has the most weight and print it...i went checked weigths 100,200,...
             print( int(weight/100)*' ',line, weight,'  ', counter, chr(k)) # printing the character that the txt is encrypted with
             print(175*'*')
         
