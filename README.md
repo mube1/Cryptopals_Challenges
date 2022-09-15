@@ -6,11 +6,10 @@ It gives you a series of challenges to solve that upon completion will give you 
 So, this repo contains the path I took to solve the puzzles in the website.
 
 ### Arrangement of the files
-The challenges arranged in 8 sets each containing a group of similar puzzles. So, the files here are named as set_number{x}challenge_number.py
-The solutions here are 
-There is a utils.py file that contains functions used repeatedley
+The challenges arranged in 8 sets each containing a group of similar puzzles. So, the files here are named as set_number{x}challenge_number.py \
+There is a utils.py file that contains functions used repeatedley \
 
 ### Want to try yourself?
-go to cryptopals.com
-read the description of the puzzle, and the algorithm in the files here
+go to cryptopals.com \
+read the description of the puzzle, and the algorithm in the files here \
 download or copy paste the codes
